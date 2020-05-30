@@ -5722,13 +5722,10 @@
       ]
     },
     "System.Runtime.InteropServices.RuntimeInformation/4.3.0": {
-      "sha512": "b0kFMpo8yeYtJ0yIXyde4xxa9Xpsn9GlCA0DnLdI4Cd77z3IzkKGPKx4NlCE4AoDInm/PStyVKSfP7FWaimtGw==",
+      "sha512": "cbz4YJMqRDR7oLeMRbdYv7mYzc++17lNhScCX0goO2XpGWdvAt60CGN+FHdePUEHCe/Jy9jUlvNAiNdM+7jsOw==",
       "type": "package",
       "path": "system.runtime.interopservices.runtimeinformation/4.3.0",
       "files": [
-        ".signature.p7s",
-        "System.Runtime.InteropServices.RuntimeInformation.4.3.0.nupkg.sha512",
-        "System.Runtime.InteropServices.RuntimeInformation.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5752,7 +5749,9 @@
         "runtimes/unix/lib/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll",
         "runtimes/win/lib/net45/System.Runtime.InteropServices.RuntimeInformation.dll",
         "runtimes/win/lib/netcore50/System.Runtime.InteropServices.RuntimeInformation.dll",
-        "runtimes/win/lib/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll"
+        "runtimes/win/lib/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "system.runtime.interopservices.runtimeinformation.4.3.0.nupkg.sha512",
+        "system.runtime.interopservices.runtimeinformation.nuspec"
       ]
     },
     "System.Runtime.Loader/4.3.0": {
@@ -7072,19 +7071,20 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v1.1": [
-      "Microsoft.NETCore.App >= 1.1.1"
+      "Microsoft.NETCore.App >= 1.1.1",
+      "System.Net.Sockets >= 4.3.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Arash\\.nuget\\packages\\": {}
+    "C:\\Users\\lopov\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\users\\arash\\documents\\visual studio 2017\\Projects\\SocketClient1\\SocketClient1\\SocketClient1.csproj",
+      "projectUniqueName": "E:\\dotnetCore\\SocketClient1\\SocketClient1\\SocketClient1.csproj",
       "projectName": "SocketClient1",
-      "projectPath": "c:\\users\\arash\\documents\\visual studio 2017\\Projects\\SocketClient1\\SocketClient1\\SocketClient1.csproj",
-      "outputPath": "c:\\users\\arash\\documents\\visual studio 2017\\Projects\\SocketClient1\\SocketClient1\\obj\\",
+      "projectPath": "E:\\dotnetCore\\SocketClient1\\SocketClient1\\SocketClient1.csproj",
+      "outputPath": "E:\\dotnetCore\\SocketClient1\\SocketClient1\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
@@ -7098,6 +7098,10 @@
     "frameworks": {
       "netcoreapp1.1": {
         "dependencies": {
+          "System.Net.Sockets": {
+            "target": "Package",
+            "version": "4.3.0"
+          },
           "Microsoft.NETCore.App": {
             "target": "Package",
             "version": "1.1.1",

@@ -1,0 +1,9 @@
+E:\dotnetCore\SocketClient1\SocketClient1\bin\Debug\netcoreapp1.1\SocketClient1.deps.json
+E:\dotnetCore\SocketClient1\SocketClient1\bin\Debug\netcoreapp1.1\SocketClient1.runtimeconfig.json
+E:\dotnetCore\SocketClient1\SocketClient1\bin\Debug\netcoreapp1.1\SocketClient1.runtimeconfig.dev.json
+E:\dotnetCore\SocketClient1\SocketClient1\bin\Debug\netcoreapp1.1\SocketClient1.dll
+E:\dotnetCore\SocketClient1\SocketClient1\bin\Debug\netcoreapp1.1\SocketClient1.pdb
+E:\dotnetCore\SocketClient1\SocketClient1\obj\Debug\netcoreapp1.1\SocketClient1.csprojResolveAssemblyReference.cache
+E:\dotnetCore\SocketClient1\SocketClient1\obj\Debug\netcoreapp1.1\SocketClient1.AssemblyInfo.cs
+E:\dotnetCore\SocketClient1\SocketClient1\obj\Debug\netcoreapp1.1\SocketClient1.dll
+E:\dotnetCore\SocketClient1\SocketClient1\obj\Debug\netcoreapp1.1\SocketClient1.pdb
